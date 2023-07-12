@@ -13,8 +13,8 @@ hold on
 figure(1); clf;
 for i=1:length(x)-2
     fcn_circleCenterFromThreePoints(x(i:i+2),y(i:i+2),1);
-    plot(x,y,'r-');
-    pause;
+    plot(x,y,'g-');
+    %pause;
 end
 
 
